@@ -2,6 +2,9 @@
     <div class="reset">
         重置
     </div>
+    <h2>
+        标题
+    </h2>
     <div class="header">
         头部
         <div class="sider">
