@@ -1,6 +1,6 @@
 <template>
-    <div class="test">
-        测试
+    <div class="reset">
+        重置
     </div>
   </template>
   
