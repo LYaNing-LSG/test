@@ -17,7 +17,9 @@
     <h2>I don't know what is git</h2>
     <p>I think I should learn it</p>
   </div>
-  
+  <div class>
+    <p>I don't know what is git</p>
+  </div>
 </template>
 
 <script>
