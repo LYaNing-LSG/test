@@ -1,21 +1,6 @@
 <template>
-    <div class="reset">
-        重置
-    </div>
-    <h2>
-        标题
-    </h2>
-    <div class="header">
-        头部
-        <div class="sider">
-            侧边栏
-        </div>
-        <div class="content">
-            内容
-        </div>
-    </div>
-    <div class="footer">
-        底部
+    <div class="test">
+        测试
     </div>
     <h2>master分支上的东西</h2>
   </template>
@@ -27,16 +12,5 @@
   </script>
   
   <style>
-.reset{
-    background-color: red;
-}
-.header{
-    background-color: blue;
-}
-.sider{
-    background-color: yellow;
-}
-    .content{
-        background-color: pink;
-    }
+
   </style>
