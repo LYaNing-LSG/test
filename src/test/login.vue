@@ -8,6 +8,11 @@
   <h3>测试一下合并代码</h3>
   <h4>测试奥复查送覅哦啊是v哦i阿哥vi哦啊给v哦ui为规范vi额爱哦发给我i给</h4>
   <h5>测试二下合并代码111111111111111111111111111111111111111111111111111111111111111</h5>
+  <div class="test">
+    <h2>I don't know what is git</h2>
+    <p>I think I should learn it</p>
+  </div>
+  
 </template>
 
 <script>
@@ -17,5 +22,10 @@ export default {
 </script>
 
 <style>
-
+p{
+  color: red;
+}
+.test{
+  color: blue;
+}
 </style>
