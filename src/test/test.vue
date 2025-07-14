@@ -31,7 +31,20 @@
     >
   </el-descriptions>
 </el-main>
-        <el-footer>Footer</el-footer>
+        <el-footer>
+          <el-row>
+    <el-col :span="12">
+      <el-statistic
+        title="激活用户"
+        :value="112893"
+        style="margin-right: 50px"
+      />
+    </el-col>
+    <el-col :span="12">
+      <el-statistic title="收入 (CNY)" :precision="2" :value="112893" />
+    </el-col>
+  </el-row>
+        </el-footer>
       </el-container>
     </el-container>
   </div>
