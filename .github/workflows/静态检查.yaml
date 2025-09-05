@@ -1,0 +1,12 @@
+name: 静态检查流水线
+on: [push]
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      - name: Run Prettier on changed files
+        run: |
+          npm install -g prettier@3.6.0 --registry=https://npm.sr.ok
+          npx prettier --check .
