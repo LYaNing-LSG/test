@@ -29,10 +29,11 @@ export default {
 </script>
 
 <style>
-p{
+p {
   color: red;
 }
-.test{
+
+.test {
   color: blue;
 }
 </style>
